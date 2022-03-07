@@ -1,58 +1,73 @@
-class {
-    color: #000000;
-    color: #062F4F;
-    color: #B82601;
-    color: #2b2b2c;
-    color: #9c9a9a;
-}
 
 body {
-    color:#2b2b2c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: slategray;
+    background-color: black;
 }
 
 header {
-    padding: 20px 35px;
     display: flex;
-    background-color: #062F4F;
     justify-content: space-between;
-    align-items: baseline;
+    align-content: center;
 }
 
-header h1 {
-    font-size: 40px;
-    line-height: 0.6;
-    padding-top: 10px;
-    color: white;
-    text-shadow: #2b2b2c;
-}
-
-header h1 a {
+header a {
     text-decoration: none;
     color: white;
 }
 
-header nav {
-    margin: 7px 0;
+header h1 {
+    padding: 15px;
+    font-size: 50px;
 }
 
-header nav ul{
+header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 15px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(161, 112, 206), rgb(221, 135, 65));
+    margin: 0 15px;
+}
+
+header nav ul li:hover {
+    background-image: linear-gradient(to right, rgb(221, 135, 65), rgb(161, 112, 206));
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    margin: 0 10px 0;
-    font-weight: lighter;
-    color: white;
-    background-color: #88888a;
-    border-radius: 15px;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
 }
 
-.subheading {
-    font-size: 60%;
-    font-weight: normal;
-    font-style: italic;
-    color: #88888a;
+.hero {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+}
+
+.step h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+}
+
+.step div{
+    width: 50%;
+    text-align: justify;
 }
