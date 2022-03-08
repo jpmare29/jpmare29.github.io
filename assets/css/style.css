@@ -69,9 +69,19 @@ header nav ul li a {
     margin-bottom: 200px;
 }
 
+#projects img:hover {
+    border: 10px solid white;
+}
+
 .main-project {
     width: 60%;
     white-space: nowrap;
+}
+
+.main-project h2 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 15px;
 }
 
 .main-project img {
@@ -167,12 +177,4 @@ footer img {
     .profile {
         width: 45%;
     }
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 575px) {
-    
 }
